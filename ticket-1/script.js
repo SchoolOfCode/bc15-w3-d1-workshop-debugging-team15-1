@@ -19,6 +19,8 @@ addItemButton.addEventListener("click", () => {
     itemInput.value = "";
 
     // Add event listener to delete button
-    deleteButton.addEventListener("click", () => li.remove());
+    deleteButton.addEventListener("click", () => {
+      li.remove()
+    });
   }
 });
